@@ -1,0 +1,36 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&family=Roboto:wght@300;400&display=swap');
+/* font-family: 'Leckerli One', cursive;
+font-family: 'Roboto', sans-serif; */
+
+  
+    /*====== Colors ====== */
+    $body-color: #F7FBFC;
+    $title-color: #769FCD;
+    $text-color: #B9D7EA;
+    $link-hover: #D6E6F2;
+
+  
+  /* ====== GENERAL ====== */
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+  }
+  a{
+    text-decoration: none;
+  }
+  li{
+    list-style-type: none;
+  }
+
+  body{
+    background-color: $body-color;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300; 
+  }

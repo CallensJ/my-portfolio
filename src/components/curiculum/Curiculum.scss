@@ -1,0 +1,41 @@
+.curiculum__section {
+  max-width: 1440px;
+  margin: 6rem auto;
+  //border: 2px solid red;
+
+  .section__title {
+    text-align: center;
+    font-size: 2.4rem;
+    color: #141414;
+    font-family: "Playfair Display SC", serif;
+    font-weight: 400;
+  }
+  .section__subtitle {
+    font-family: "Playfair Display SC", serif;
+    text-align: center;
+    font-size: 1rem;
+    display: block;
+    color: #929292;
+  }
+}
+
+.container {
+  //border:1px dashed black;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 2rem;
+  .educationBloc {
+    border: 1px solid red;
+  }
+
+
+  .experienceBloc {
+    border: 1px solid red;
+  }
+  .bloc__title {
+    font-family: "Playfair Display SC", serif;
+    text-align: center;
+    font-weight: 400;
+    text-decoration: underline;
+  }
+}

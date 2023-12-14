@@ -1,16 +1,16 @@
 .navbar{
-    border: 1px solid black;
     height: 12rem;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     .title{
+        font-family: 'Playfair Display SC', serif;
         font-size: 4rem;
         margin-top: 2rem;   
     }
     &__list{
-        border: 2px solid red;
+
         width: 20rem;
         display: flex;
         justify-content: space-between;  

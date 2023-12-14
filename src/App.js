@@ -5,6 +5,7 @@ import { Route, Routes } from "react-router-dom";
 import About from "./components/about/About";
 import Curiculum from "./components/curiculum/Curiculum";
 import Projects from "./components/projects/Projects";
+import './App.scss';
 
 
 

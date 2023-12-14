@@ -1,0 +1,63 @@
+.about__section {
+  max-width: 1440px;
+  margin: 6rem auto;
+  //border: 2px dashed black;
+  .section__title {
+    text-align: center;
+    font-size: 2.4rem;
+    color: #141414;
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 400;
+  }
+  .section__subtitle {
+    font-family: 'Playfair Display SC', serif;
+    text-align: center;
+    font-size: 1rem;
+    display: block;
+    color: #929292;
+  }
+  .about__container {
+    //border: 1px solid red;
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    .about__img {
+      width: 30rem;
+      border-radius: 1.5rem;
+      justify-self: center;
+      
+    
+    
+     
+    }
+    .about__data{
+        //border: 1px solid yellowgreen;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .about__text{
+          font-family: 'Lato', sans-serif;
+            font-size: 1.2rem;
+            color: #929292;
+            line-height: 2rem;
+        }
+        .btn{
+          width: 10rem;
+          padding: .8rem 1rem;
+          border-radius: .2rem;
+          outline: none;
+          border: none;
+          color: #FAF6F0;
+          font-size: 1rem;
+          background-color: #141414;
+          cursor: pointer;
+        }
+        .btn:hover{
+          background-color: #FAF6F0;
+          color: #141414;
+          transition: .5s;
+        }
+    }
+  }
+}

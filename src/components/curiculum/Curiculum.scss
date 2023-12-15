@@ -1,7 +1,7 @@
 .curiculum__section {
   max-width: 1440px;
   margin: 6rem auto;
-  //border: 2px solid red;
+  border: 2px solid red;
 
   .section__title {
     text-align: center;
@@ -24,7 +24,7 @@
 }
 
 .container {
-  //border: 1px dashed black;
+  border: 1px dashed black;
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-top: 6rem;
@@ -94,4 +94,12 @@
     text-decoration: underline;
     text-transform: uppercase;
   }
+}
+
+
+//SKILLS SECTION STYLES
+.skills__section{
+  max-width: 1440px;
+  margin: 6rem auto;
+  border: 1px solid red;
 }

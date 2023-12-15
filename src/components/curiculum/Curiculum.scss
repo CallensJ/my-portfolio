@@ -5,14 +5,18 @@
 
   .section__title {
     text-align: center;
-    font-size: 2.4rem;
-    color: #141414;
+    font-size: 2rem;
+    color: #333;
     font-family: "Playfair Display SC", serif;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
     font-weight: 400;
   }
   .section__subtitle {
     font-family: "Playfair Display SC", serif;
     text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
     font-size: 1rem;
     display: block;
     color: #929292;
@@ -20,22 +24,74 @@
 }
 
 .container {
-  //border:1px dashed black;
+  //border: 1px dashed black;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-top: 2rem;
+  margin-top: 6rem;
   .educationBloc {
-    border: 1px solid red;
+    // border: 1px solid red;
+    text-align: center;
+
+    .education-list {
+      margin-bottom: 2rem;
+
+      .date,
+      .award {
+        color: #8c8c8c;
+      }
+      .award-school {
+        font-size: 0.9rem;
+        font-weight: 700;
+
+        .award-link {
+          padding-bottom: 0.5rem;
+          border-bottom: 1px solid #b3b3b3;
+          color: #4e4e4e;
+        }
+      }
+    }
+    .education-list:first-of-type {
+      margin-top: 3rem;
+    }
   }
 
-
   .experienceBloc {
-    border: 1px solid red;
+    //border: 1px solid red;
+    text-align: center;
+
+    .work-list {
+      margin-bottom: 2rem;
+      //border: 1px solid red;
+
+      .date {
+        color: #8c8c8c;
+      }
+
+      .company-name {
+        font-size: 0.9rem;
+        font-weight: 700;
+        .company-link {
+          padding-bottom: 0.5rem;
+          border-bottom: 1px solid #b3b3b3;
+          color: #4e4e4e;
+        }
+      }
+      .occupation {
+        color: #8c8c8c;
+      }
+    }
+    .work-list:first-of-type {
+      margin-top: 3rem;
+    }
   }
   .bloc__title {
     font-family: "Playfair Display SC", serif;
     text-align: center;
+    color: #333;
     font-weight: 400;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
     text-decoration: underline;
+    text-transform: uppercase;
   }
 }

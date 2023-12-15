@@ -5,11 +5,33 @@ const ExperienceBloc = () => {
     <div className="experienceBloc">
       <h2 className="bloc__title">Expérience</h2>
       <ul className="work-list">
-        <li>2022-2023</li>
-        <li>
-          <a href="#">Company name</a>
+        <li className="date">2021-2022</li>
+        <li className="company-name">
+          <a href="#" className="company-link">
+          Howby
+          </a>
         </li>
-        <li>occupation</li>
+        <li className="occupation">Stagiaire</li>
+      </ul>
+
+      <ul className="work-list">
+        <li className="date">2013-2017</li>
+        <li className="company-name">
+          <a href="#" className="company-link">
+            Cevennes Informatique
+          </a>
+        </li>
+        <li className="occupation">Dirigeant</li>
+      </ul>
+
+      <ul className="work-list">
+        <li className="date">2010-2012</li>
+        <li className="company-name">
+          <a href="https://www.partner-logistic.com/en/" className="company-link">
+          Partner Logistic
+          </a>
+        </li>
+        <li className="occupation">Assistant Administration réseau</li>
       </ul>
     </div>
   );

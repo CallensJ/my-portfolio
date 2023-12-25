@@ -1,0 +1,49 @@
+.grid {
+  border: 2px solid black;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.projects__section {
+  .filters {
+    border: 1px solid grey;
+    display: flex;
+    justify-content: space-between;
+    width: 30rem;
+    margin: 0 auto;
+    .filter__item {
+      cursor: pointer;
+    }
+  }
+}
+
+.card {
+  //border: 1px solid red;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  padding: 1rem;
+  .inner-card {
+    .image-container {
+      .image {
+        border-radius: 1rem;
+      }
+    }
+
+    .card__name {
+      font-size: 1rem;
+      font-family: "Playfair Display SC", serif;
+      text-align: center;
+    }
+    .card__description {
+      text-align: center;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
+    .tags {
+      border-top: 0.1rem solid black;
+      margin-top: 5rem;
+      padding-top: 2rem;
+    }
+  }
+}

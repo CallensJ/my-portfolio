@@ -11,7 +11,7 @@ const Curiculum = () => {
     <>
     
     <section className="curiculum__section">
-      <h1 className="section__title">Curiculum</h1>
+      <h2 className="section__title">Curiculum</h2>
       <span className="section__subtitle">online version</span>
 
       {/*bloc contenu du  Curiculum */}
@@ -23,9 +23,12 @@ const Curiculum = () => {
     </section>
 
     <section className="skills__section">
-      <h2>Skills</h2>
-     <Hardskills />
-     <SoftSkills />
+      <h2 className="section__title">Skills</h2>
+      <div className ="container">
+        <Hardskills />
+        <SoftSkills />
+
+      </div>
     </section>
     </>
   );

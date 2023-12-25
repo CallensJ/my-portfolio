@@ -1,11 +1,10 @@
 import React from "react";    
-import "./App.scss";
+import './App.scss';
 import Navbar from "./components/navbar/Navbar";
 import { Route, Routes } from "react-router-dom";
 import About from "./components/about/About";
 import Curiculum from "./components/curiculum/Curiculum";
 import Projects from "./components/projects/Projects";
-import './App.scss';
 
 
 

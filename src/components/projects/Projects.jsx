@@ -11,13 +11,13 @@ const Projects = () => {
     <>
 
       <section className="projects__section">
-        <h2>Projects</h2>
+        <h2 className="section__title">Projects</h2>
         <div className="filters">
           <span className="filter__item">Frontend Mentor</span>
           <span className="filter__item">FreeCodeCamp</span>
           <span className="filter__item">Wordpress</span>
         </div>
-        <div className="projects__container grid">
+        <div className="projects__container">
             <Card item={item} />
         </div>
       </section>

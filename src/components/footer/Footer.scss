@@ -1,0 +1,21 @@
+.footer__section {
+  height: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .footer__icons {
+    width: 10rem;
+    display: flex;
+    justify-content: space-between;
+    .icon {
+      width: 1.6rem;
+      height: 1.6rem;
+      color: #333;
+    }
+    .icon:hover,
+    .icon:active {
+      color: #8c8c8c;
+      transition: all 0.3s;
+    }
+  }
+}

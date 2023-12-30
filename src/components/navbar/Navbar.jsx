@@ -7,7 +7,6 @@ const Navbar = () => {
     <nav className="navbar">
       <h1 class="title">Callens Johan</h1>
       <ul className="navbar__list">
-        {/*  <Link to="/">Home</Link> */}
         <Link to="/about" className="navbar__link">
           About
         </Link>

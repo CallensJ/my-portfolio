@@ -1,7 +1,8 @@
 .grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto auto auto;
+  
 }
 .projects__section {
   width: 100%;
@@ -18,7 +19,10 @@
     }
   }
   .projects__container {
-    margin-top: 2rem;
+    width: 70%;
+    margin: 4rem auto;
+    //border: 1px solid red;
+  
   }
 }
 

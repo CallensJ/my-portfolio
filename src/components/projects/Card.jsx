@@ -1,9 +1,9 @@
 import React from "react";
 
-const Card = ({ item }) => {
+const Card = ({ menuItem }) => {
   return (
     <div className="grid">
-      {item.map((item) => {
+      {menuItem.map((item) => {
         return (
           <div className="card" key={item.id}>
             <div class="inner-card">

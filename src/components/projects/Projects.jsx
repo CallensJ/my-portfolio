@@ -1,24 +1,27 @@
 import React, { useState } from "react";
 import "./Projects.scss";
 import Card from "./Card";
-import Data from "../../Data";
+import items from "../../Data";
+import Button from "./Button";
 
 
 const Projects = () => {
-  const [item, setItems] = useState(Data);
+  const [menuItem, setMenuItem] = useState(items);
+  const [buttons, setButtons] = useState([]);
+
+  const filter = (button) => {
+    const filteredData = items.filter(item => item.category === button);
+    setMenuItem(filteredData);
+  }
 
   return (
     <>
 
       <section className="projects__section">
         <h2 className="section__title">Projects</h2>
-        <div className="filters">
-          <span className="filter__item">Frontend Mentor</span>
-          <span className="filter__item">FreeCodeCamp</span>
-          <span className="filter__item">Wordpress</span>
-        </div>
+        <Button filter={filter} />
         <div className="projects__container">
-            <Card item={item} />
+            <Card menuItem={menuItem} />
         </div>
       </section>
     </>

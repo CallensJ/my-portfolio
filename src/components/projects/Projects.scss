@@ -2,7 +2,6 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto auto auto;
-  
 }
 .projects__section {
   width: 100%;
@@ -10,11 +9,13 @@
   margin-top: 6rem;
 
   .filters {
+    border: 1px solid red;
     display: flex;
     justify-content: space-between;
     width: 20rem;
     margin: 2rem auto;
-    .filter__item {
+    .btn {
+      padding: 0.4rem 1rem;
       cursor: pointer;
     }
   }
@@ -22,7 +23,6 @@
     width: 70%;
     margin: 4rem auto;
     //border: 1px solid red;
-  
   }
 }
 
@@ -34,4 +34,22 @@
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
   padding: 1rem;
+}
+
+@media (max-width: 400px) {
+  .grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+  .projects__section {
+    .filters {
+      display: flex;
+      flex-direction: column;
+      width: 15rem;
+      gap: 1rem;
+    }
+    .projects__container {
+      width: 100%;
+    }
+  }
 }

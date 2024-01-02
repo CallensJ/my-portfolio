@@ -1,27 +1,42 @@
-.navbar{
-    height: 12rem;
+.navbar {
+  height: 12rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  .title {
+    font-family: "Playfair Display SC", serif;
+    font-size: 4rem;
+    margin-top: 2rem;
+  }
+  &__list {
+    width: 20rem;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    .title{
-        font-family: 'Playfair Display SC', serif;
-        font-size: 4rem;
-        margin-top: 2rem;   
+    justify-content: space-between;
+    margin-top: 2rem;
+    .navbar__link {
+      font-size: 1.2rem;
+      color: #333;
     }
-    &__list{
+    .navbar__link:hover {
+      transition: all 0.3s;
+      color: #8c8c8c;
+    }
+  }
+}
 
-        width: 20rem;
-        display: flex;
-        justify-content: space-between;  
-        margin-top: 2rem;   
-        .navbar__link{
-            font-size: 1.2rem;
-            color: #333;
-        }
-        .navbar__link:hover{
-            transition: all .3s;
-            color:#8c8c8c;
-        }     
+@media (max-width: 400px) {
+  .navbar {
+    text-align: center;
+    .title {
+      font-size: 2.5rem;
     }
+    &__list {
+      width: 15rem;
+      .navbar__link {
+        font-size: 1rem;
+        color: #333;
+      }
+    }
+  }
 }

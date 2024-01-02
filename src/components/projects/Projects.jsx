@@ -19,7 +19,10 @@ const Projects = () => {
 
       <section className="projects__section">
         <h2 className="section__title">Projects</h2>
+        <div className="buttons-container">
+
         <Button filter={filter} />
+        </div>
         <div className="projects__container">
             <Card menuItem={menuItem} />
         </div>

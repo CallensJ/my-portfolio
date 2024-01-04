@@ -6,6 +6,16 @@ const EducationBloc = () => {
       <h3 className="bloc__title">Education</h3>
       <div></div>
       <ul className="list">
+        <li>Mooc</li>
+        <li className="date">2023</li>
+        <li className="school">
+          <a href="https://www.freecodecamp.org" className="link">
+            Free code camp
+          </a>
+        </li>
+        <li className="award">Web design certification</li>
+      </ul>
+      <ul className="list">
         <li className="date">2021-2022</li>
         <li className="school">
           <a href="https://occitanie.simplon.co" className="link">
@@ -24,16 +34,7 @@ const EducationBloc = () => {
         <li className="award">Bep Electronique</li>
       </ul>
 
-      <ul className="list">
-        <li>Mooc</li>
-        <li className="date">2023</li>
-        <li className="school">
-          <a href="https://www.freecodecamp.org" className="link">
-            Free code camp
-          </a>
-        </li>
-        <li className="award">Web design certification</li>
-      </ul>
+
     </div>
   );
 };

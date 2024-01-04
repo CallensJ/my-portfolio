@@ -6,18 +6,17 @@
     text-align: center;
     font-size: 2.4rem;
     color: #141414;
-    font-family: 'Playfair Display SC', serif;
+    font-family: "Playfair Display SC", serif;
     font-weight: 400;
   }
   .section__subtitle {
-    font-family: 'Playfair Display SC', serif;
+    font-family: "Playfair Display SC", serif;
     text-align: center;
     font-size: 1rem;
     display: block;
     color: #929292;
   }
   .about__container {
-    //border: 1px solid red;
     margin-top: 4rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -25,39 +24,59 @@
       width: 30rem;
       border-radius: 1.5rem;
       justify-self: center;
-      
-    
-    
-     
     }
-    .about__data{
-        //border: 1px solid yellowgreen;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+    .about__data {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
 
-        .about__text{
-          font-family: 'Lato', sans-serif;
-            font-size: 1.2rem;
-            color: #929292;
-            line-height: 2rem;
+      .about__text {
+        font-family: "Lato", sans-serif;
+        font-size: 1.2rem;
+        color: #929292;
+        line-height: 2rem;
+      }
+      .btn {
+        width: 10rem;
+        padding: 0.8rem 1rem;
+        border-radius: 0.2rem;
+        outline: none;
+        border: none;
+        color: #faf6f0;
+        font-size: 1rem;
+        background-color: #141414;
+        cursor: pointer;
+      }
+      .btn:hover {
+        background-color: #faf6f0;
+        color: #141414;
+        transition: 0.5s;
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .about__section {
+    .about__container {
+      margin-top: 4rem;
+      grid-template-columns: 1fr;
+      padding: 1rem;
+      .about__img {
+        max-width: 20rem;
+        margin-bottom: 2rem;
+      }
+      .about__data {
+        padding: 1rem;
+        text-align: left;
+
+        .about__text {
+          margin-bottom: 2rem;
         }
-        .btn{
-          width: 10rem;
-          padding: .8rem 1rem;
-          border-radius: .2rem;
-          outline: none;
-          border: none;
-          color: #FAF6F0;
-          font-size: 1rem;
-          background-color: #141414;
-          cursor: pointer;
+        .btn {
+          width: 100%;
         }
-        .btn:hover{
-          background-color: #FAF6F0;
-          color: #141414;
-          transition: .5s;
-        }
+      }
     }
   }
 }

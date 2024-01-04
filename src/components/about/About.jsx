@@ -2,6 +2,7 @@ import React from "react";
 import "./About.scss";
 import Me from "../../assets/Me.jpg";
 
+
 const About = () => {
   return (
     <section className="about__section">
@@ -20,7 +21,7 @@ const About = () => {
             venenatis ultricies et ac quam. Nunc mollis, justo at ultricies
             vehicula, lacus neque pharetra eros, ut aliquet tellus mi non orci
           </p>
-          <button className="btn">Télécharger CV</button>
+          <a href="https://callensj.github.io/curiculum/" className="btn">Voir mon CV</a>
         </div>
       </div>
     </section>

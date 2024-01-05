@@ -18,6 +18,7 @@ const Footer = () => {
 
         
        </div>
+       <p>Codé avec Amour en React</p>
     </section>
   );
 };

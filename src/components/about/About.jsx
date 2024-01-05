@@ -2,7 +2,6 @@ import React from "react";
 import "./About.scss";
 import Me from "../../assets/Me.jpg";
 
-
 const About = () => {
   return (
     <section className="about__section">
@@ -13,15 +12,15 @@ const About = () => {
         <img src={Me} alt="" className="about__img" />
         <div className="about__data">
           <p className="about__text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Pellentesque pretium, lorem eu dictum pharetra, orci risus dictum
-            eros, pellentesque molestie orci ante non odio. Donec volutpat
-            sodales orci, ut posuere erat elementum a. Aenean convallis
-            malesuada diam vitae eleifend. Nullam sit amet neque id nulla
-            venenatis ultricies et ac quam. Nunc mollis, justo at ultricies
-            vehicula, lacus neque pharetra eros, ut aliquet tellus mi non orci
+            Passionné d’informatique depuis toujours et principalement de
+            hardware j’ai bifurqué de mon chemin et emprunté celui du
+            développement web. Récemment diplômé et motivé j’utilise mes
+            nouvelles compétences acquises pour en gagner de nouvelles à chaque
+            nouveau projet. Je serai ravi de participer à votre projet web.
           </p>
-          <a href="https://callensj.github.io/curiculum/" className="btn">Voir mon CV</a>
+          <a href="https://callensj.github.io/curiculum/" className="btn">
+            Voir mon CV
+          </a>
         </div>
       </div>
     </section>

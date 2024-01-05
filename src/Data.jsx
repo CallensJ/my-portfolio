@@ -4,6 +4,8 @@ import img3 from './assets/img3.png';
 import img4 from './assets/img4.png';
 import img5 from './assets/img5.png';
 import img6 from './assets/img6.png';
+import img7 from './assets/img7.png'
+import img8 from './assets/img8.png'
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default  [
@@ -61,6 +63,24 @@ export default  [
       description:"Javascript roleplay Game for the Javascript certification",
       live:"https://callensj.github.io/role-playing-game/",
       repo:"https://github.com/CallensJ/role-playing-game",
+    },
+    {
+      id:"7",
+      title:"Quiz",
+      category: "javascript",
+      image:img7,
+      description:"Javascript quiz pour la certification Simplon de Developpeur Web",
+      live:"https://johan030.github.io/full-stack-quizz/",
+      repo:"https://github.com/johan030/full-stack-quizz",
+    },
+    {
+      id:"8",
+      title:"Formulaire php",
+      category: "php",
+      image:img8,
+      description:"simple formulaire php ",
+      live:"https://callensj.github.io/php-form/",
+      repo:"https://github.com/CallensJ/php-form",
     },
   
 ];

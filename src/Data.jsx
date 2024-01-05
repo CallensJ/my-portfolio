@@ -3,6 +3,7 @@ import img2 from './assets/img2.png';
 import img3 from './assets/img3.png';
 import img4 from './assets/img4.png';
 import img5 from './assets/img5.png';
+import img6 from './assets/img6.png';
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default  [
@@ -51,6 +52,15 @@ export default  [
       description:"Design: Frontend mentor",
       live:"https://callensj.github.io/portfolio/",
       repo:"https://github.com/CallensJ/results-summary-component",
+    },
+    {
+      id:"6",
+      title:"RPG Dragon Repeller",
+      category: "Freecodecamp",
+      image:img6,
+      description:"Javascript roleplay Game for the Javascript certification",
+      live:"https://callensj.github.io/role-playing-game/",
+      repo:"https://github.com/CallensJ/role-playing-game",
     },
   
 ];

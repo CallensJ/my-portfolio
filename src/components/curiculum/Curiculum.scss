@@ -75,6 +75,16 @@
 }
 
 @media (max-width: 400px) {
+  .bloc{
+    .list{
+      .why{
+        max-width: 80%;
+        margin: 0 auto;
+        
+        
+      }
+    }
+  }
   .section__subtitle{
     font-size: .7rem !important;
   }
@@ -85,6 +95,8 @@
     grid-template-columns: 1fr;
     grid-template-rows: auto auto;
     text-align: center;
+
+
   }
   
 }

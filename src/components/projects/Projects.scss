@@ -1,6 +1,6 @@
 .grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto auto auto;
 }
 .projects__section {
@@ -9,10 +9,10 @@
   margin-top: 6rem;
 
   .filters {
-
+    
     display: flex;
     justify-content: space-between;
-    width: 20rem;
+    width: 30rem;
     margin: 2rem auto;
     .btn {
       padding: 0.4rem 1rem;
@@ -20,9 +20,9 @@
     }
   }
   .projects__container {
-    width: 70%;
+    border : 1px solid red;
+    width: 100%;
     margin: 4rem auto;
- 
   }
 }
 

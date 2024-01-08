@@ -25,6 +25,15 @@ const EducationBloc = () => {
         <li className="award">Developpeur web & web mobile</li>
       </ul>
       <ul className="list">
+        <li className="date">2021-2022</li>
+        <li className="school">
+          <a href="https://occitanie.simplon.co" className="link">
+            Opquast
+          </a>
+        </li>
+        <li className="award">Certifié Opquast : Confirmé</li>
+      </ul>
+      <ul className="list">
         <li className="date">2001-2003</li>
         <li className="school">
           <a href="https://lycee-gustave-eiffel.fr" className="link">

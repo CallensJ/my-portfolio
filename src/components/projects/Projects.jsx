@@ -23,7 +23,7 @@ const Projects = () => {
     <>
 
       <section className="projects__section">
-        <h2 className="section__title">Projects</h2>
+        <h2 className="section__title">Projets</h2>
         <div className="buttons-container">
 
         <Button button={buttons} filter={filter} />

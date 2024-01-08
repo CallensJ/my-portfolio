@@ -8,13 +8,13 @@ const Navbar = () => {
       <h1 class="title">Callens Johan</h1>
       <ul className="navbar__list">
         <Link to="/about" className="navbar__link">
-          About
+          A propos
         </Link>
         <Link to="/Curiculum" className="navbar__link">
           Curiculum
         </Link>
         <Link to="/Projects" className="navbar__link">
-          Projects
+          Projets
         </Link>
       </ul>
     </nav>

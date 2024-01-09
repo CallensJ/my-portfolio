@@ -10,7 +10,6 @@ const Footer = () => {
     <section className="footer__section">
       <div className="footer__icons">
         <a href="https://github.com/CallensJ"><FaGithub className="icon"/></a>
-        <a href="https://www.youtube.com/@newoncoding"><FaYoutube className="icon"/></a>
         <a href="https://www.linkedin.com/in/johan-callens-021bab142/"><FaLinkedin className="icon"/></a>
         <a href="https://twitter.com/johan_callens"><FaTwitter className="icon"/></a>
 

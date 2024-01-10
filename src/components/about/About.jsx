@@ -5,7 +5,7 @@ import Me from "../../assets/Me.jpg";
 const About = () => {
   return (
     <section className="about__section">
-      <h1 className="section__title">About Me</h1>
+      <h1 className="section__title">A Propos</h1>
       <span className="section__subtitle">Mon introduction</span>
 
       <div className="about__container">
